@@ -21,4 +21,20 @@ This project is a simple **Banking Web Application** built using **JSP**, **Serv
 - **HTML/CSS**: Basic frontend styling
 
 ## Project Structure
-
+BankingApp/
+├── src/
+│ └── com.bankapp.servlets/
+│ ├── RegisterServlet.java
+│ ├── LoginServlet.java
+│ ├── BalanceServlet.java
+│ ├── TransferServlet.java
+│ └── WithdrawServlet.java
+├── WebContent/
+│ ├── register.jsp
+│ ├── login.jsp
+│ ├── dashboard.jsp
+│ ├── balance.jsp
+│ ├── transfer.jsp
+│ └── withdraw.jsp
+└── WEB-INF/
+└── web.xml
